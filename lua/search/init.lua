@@ -25,7 +25,7 @@ local tab_window = function(telescope_win_id)
 		relative = 'win',
 		win = telescope_win_id,
 		col = 0,
-		row = 2,
+		row = -3,
 	})
 
 	-- make this window disappear when the telescope window is closed
